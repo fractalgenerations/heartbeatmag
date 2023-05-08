@@ -35,7 +35,7 @@
   </head>
 
   <body style="background-color:black;">
-    <header>
+
       <ul>
         <li>
           <a href="index.html"> Home </a>
@@ -50,14 +50,16 @@
           <a href="about.html"> About </a>
         </li>
       </ul>
-    </header>
+
 
     <main>
       <h1>Do you like this design?</h1>
-      <form>
-        <input type="radio" name="vote" value="yes">Yes<br>
-        <input type="radio" name="vote" value="no">No<br>
-        <input type="submit" value="Submit">
+     <form>
+       <input type="radio" id="yes" name="vote" value="yes">
+       <label for="yes" style="color: white;">Yes</label><br>
+       <input type="radio" id="no" name="vote" value="no">
+       <label for="no" style="color: white;">No</label><br>
+       <input type="submit" value="Submit">
       </form>
       <hr>
       <h1>Dropbox</h1>
